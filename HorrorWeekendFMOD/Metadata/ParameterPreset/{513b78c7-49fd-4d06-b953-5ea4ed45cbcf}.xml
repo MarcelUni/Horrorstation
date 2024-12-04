@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{513b78c7-49fd-4d06-b953-5ea4ed45cbcf}">
+		<property name="name">
+			<value>FootstepType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d92a0836-c8fb-47bc-8b85-9e5f688d03a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d8a3c1b2-3c74-4ca0-8396-ae172243182a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d8a3c1b2-3c74-4ca0-8396-ae172243182a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Indoor</value>
+			<value>Outdoor</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

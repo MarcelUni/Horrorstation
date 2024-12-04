@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{57085198-ac56-4930-a57e-2f7b4625c1e0}">
+		<property name="name">
+			<value>DangerLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d92a0836-c8fb-47bc-8b85-9e5f688d03a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c4233654-d4d3-4390-89eb-4ed36389c979}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c4233654-d4d3-4390-89eb-4ed36389c979}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
